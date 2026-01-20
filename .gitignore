@@ -1,0 +1,63 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+dist-electron/
+out/
+release/
+
+# Lock files (keep one, ignore the other if using both bun and npm)
+# bun.lock
+# package-lock.json
+
+# Native module build artifacts
+build/
+*.node
+
+# Electron builder
+*.blockmap
+*.snap
+*.AppImage
+*.deb
+*.rpm
+*.dmg
+*.exe
+!electron/
+
+# Vite
+*.local
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Claude Code (local settings)
+.claude/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Testing
+coverage/
+
+# Misc
+*.tsbuildinfo
+nul
